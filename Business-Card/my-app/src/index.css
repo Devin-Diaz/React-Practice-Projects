@@ -14,11 +14,43 @@ code {
 
 .container {
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   height: 100vh;
+  position: relative;
+}
+
+.image-section {
+  margin-bottom: 400px;
+  position: absolute;
 }
 
 .profile-pic {
-  height: 250px;
+  height: 300px;
+  width: 100%;
+  border-top-left-radius: 25px;
+  border-top-right-radius: 25px;
+}
+
+.intro-container {
+  margin-top: 220px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.name {
+  font-size: 45px;
+  margin-bottom: -15px;
+}
+
+.title-pos {
+  margin-bottom: -10px;
+
+}
+
+.ghub-link {
+  margin-top: 25px;
 }

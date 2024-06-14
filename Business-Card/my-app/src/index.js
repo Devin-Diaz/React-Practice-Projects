@@ -4,12 +4,16 @@ import './index.css';
 // import App from './App';
 import reportWebVitals from './reportWebVitals';
 import ProfileImage from './Components/ProfileImage.js';
+import Introduction from './Components/Introduction.js';
+import Body from './Components/Body.js';
 
 
 function Main() {
   return (
     <div className='container'>
       <ProfileImage />
+      <Introduction />
+      <Body />
     </div>
   )
 }
