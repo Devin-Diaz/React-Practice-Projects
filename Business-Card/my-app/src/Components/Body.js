@@ -2,20 +2,17 @@ import React from "react";
 
 export default function Body() {
     return (
-        <div>
-
+        <div className="content-container">
             <h4>About</h4>
-            <p>
-                I am a frontend developer with a particular interest in making things simple and automating daily tasks. 
-                I try to keep up with security and best practices, and am always looking for new things to learn.
+            <p className="descrip">
+                I am a CS Student who constantly enjoys learning new things. I am currently immersing myself in full stack development
+                with a focus on Spring Boot and React technologies.
             </p>
             
             <h4>Interests</h4>
-            <p>
-                Food expert. Music scholar. Reader. Internet fanatic. Bacon buff. Entrepreneur. 
-                Travel geek. Pop culture ninja. Coffee fanatic. 
+            <p className="descrip">
+                Programming, Finance, Robotics, Soccer.
             </p>
-
         </div>
     )
 }

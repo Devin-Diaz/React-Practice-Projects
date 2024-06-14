@@ -6,20 +6,21 @@ import reportWebVitals from './reportWebVitals';
 import ProfileImage from './Components/ProfileImage.js';
 import Introduction from './Components/Introduction.js';
 import Body from './Components/Body.js';
+import Footer from './Components/Footer.js';
 
 
 function Main() {
   return (
     <div className='container'>
-      <ProfileImage />
-      <Introduction />
-      <Body />
+      <div className='main-content'>
+        <ProfileImage />
+        <Introduction />
+        <Body />
+        <Footer />
+      </div>
     </div>
   )
 }
-
-
-
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -27,14 +28,6 @@ root.render(
     < Main />
   </React.StrictMode>
 );
-
-
-
-
-
-
-
-
 
 
 // If you want to start measuring performance in your app, pass a function

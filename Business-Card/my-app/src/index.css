@@ -5,6 +5,8 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: #23252C;
+  font-family: Inter, sans-serif;
 }
 
 code {
@@ -19,10 +21,16 @@ code {
   align-items: center;
   height: 100vh;
   position: relative;
+  margin: 0 auto; /* This centers the container horizontally */
+  width: 350px; /* Set your desired width */
+}
+
+.main-content {
+  background-color: #1A1B21;
 }
 
 .image-section {
-  margin-bottom: 400px;
+  margin-bottom: 500px;
   position: absolute;
 }
 
@@ -34,7 +42,7 @@ code {
 }
 
 .intro-container {
-  margin-top: 220px;
+  margin-top: 300px;
   justify-content: center;
   align-items: center;
   display: flex;
@@ -42,15 +50,96 @@ code {
 }
 
 .name {
-  font-size: 45px;
+  font-size: 25px;
   margin-bottom: -15px;
+  font-weight: 700;
+  color: #FFFFFF;
 }
 
 .title-pos {
   margin-bottom: -10px;
-
+  color: #F3BF99;
 }
 
 .ghub-link {
-  margin-top: 25px;
+  margin-top: 20px;
+  color:#F5F5F5;
+  font-size: 11px;
 }
+
+.buttons-container {
+  display: flex;
+}
+
+.email-button {
+  margin-right: 20px;
+  border: none;
+  background-color: #FFFFFF;
+}
+
+.linkedin-button {
+  background-color:#5093E2;
+  border: none;
+  color: #FFFFFF;
+}
+
+.email-button, .linkedin-button {
+  padding: 10px 20px;
+  width: 100px; /* Set a fixed width */
+  height: 40px; /* Set a fixed height */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.email-pic, .linked-pic {
+  margin-right: 10px; /* Add some margin to the right of the images */
+}
+
+.email-pic{
+  height: 9.6px;
+}
+
+.linked-pic {
+  height: 13.3px;
+}
+
+h4 {
+  color: #F5F5F5;
+  margin-left: 20px;
+  font-size: 16px;
+  margin-bottom: -10px;
+}
+
+.descrip {
+  color: #DCDCDC;
+  font-size: 14px;
+  margin-left: 20px;
+}
+
+.content-container {
+  margin-bottom: 25px;
+  padding: 0 20px;
+}
+
+.img-section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.footer-img {
+  height: 30px;
+}
+
+.footer-but {
+  border: none;            /* Removes the border */
+  background: none;        /* Removes the background */
+  padding: 0;              /* Removes padding */
+  cursor: pointer;         /* Keeps the cursor as a pointer to suggest clickability */
+  outline: none;
+}
+
+
+
