@@ -1,0 +1,23 @@
+
+.header--container {
+    background-color: #0080FE;
+    width: 100%;
+    margin: 0;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 75px;
+}
+
+.header-logo {
+    margin-right: 12px;
+    height: 37px;
+}
+
+.header-title {
+    color: #FFFFFF;
+    font-family: Inter, 'Arial';
+    font-weight: 100;
+}
+

@@ -1,0 +1,103 @@
+.card--container {
+    margin-bottom: 55px;
+    margin: 0;
+    margin-top: 15px;
+}
+
+.image--section--container {
+    margin: 0;
+    display: flex;
+}
+
+.info--container {
+    margin: 0;
+    margin-left: 30px;
+}
+
+.country--info--container {
+    display: flex;
+    align-items: center;
+    margin: 0%;
+    position: relative;
+}
+
+.main--data--container {
+    position: relative; /* Set relative positioning */
+    top: -12px; /* Adjust this value to overlap */
+    z-index: 0; /* Ensures this container stays below */
+    margin: 0;
+    width: 430px;
+}
+
+.location-image {
+    height: 220px;
+    width: 160px;
+    border-radius: 8px;
+}
+
+.country-title {
+    font-family: Inter;
+    font-weight: 500;
+    margin-left: 6px;
+    font-size: 17px;
+}
+
+.inspo-text {
+    font-size: 20px;
+    color: #2B283A;
+}
+
+.google-link-text {
+    margin-left: 17px;
+    color: #918E9B;
+    font-size: 14px;
+    padding-bottom: 2px;
+}
+
+.location-name {
+    color: #2B283A;
+    font-family: Inter;
+}
+
+.inspo-text {
+    font-size: 14px;
+}
+
+.location-description {
+    font-size: 14px;
+    padding-left: 10px;
+}
+
+
+.style-underline {
+    color: #918E9B;
+}
+
+.styled-hr {
+    border: none;
+    background-color: rgba(0, 0, 0, 0.1); /* Faint color using rgba for transparency */
+    margin-top: 25px;
+}
+
+
+
+
+
+/* Additional styles to remove gaps */
+.main--data--container h1,
+.main--data--container h2,
+.main--data--container p {
+    margin: 0; /* Remove default margins */
+    padding: 0; /* Remove default padding */
+}
+
+/* Optional: Add margin to space elements as needed */
+.main--data--container h1 {
+    margin-bottom: 22px; /* Adjust as needed */
+}
+
+.main--data--container h2 {
+    margin-bottom: 5px; /* Adjust as needed */
+}
+
+
